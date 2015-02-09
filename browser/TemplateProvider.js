@@ -63,7 +63,9 @@ TemplateProvider.prototype._templates = null;
  * @param {String} compiled Compiled template source.
  */
 TemplateProvider.prototype.registerCompiled = function (name, compiled) {
-	this._templates[name] = this._handlebars.template(compiled);
+	// jshint evil:true
+	var specs = new Function('return ' + compiled + ';');
+	this._templates[name] = this._handlebars.template(specs());
 };
 
 /**
