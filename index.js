@@ -36,7 +36,7 @@ var Handlebars = require('./lib/vendors/handlebars'),
 module.exports = {
 	register: function (locator, config) {
 		config = config || {};
-		locator.register('handlebars', Handlebars, config, true);
+		locator.registerInstance('handlebars', Handlebars);
 		locator.register('templateProvider', TemplateProvider, config, true);
 	},
 	Handlebars: Handlebars,
