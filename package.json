@@ -1,0 +1,34 @@
+{
+	"name": "catberry-handlebars",
+	"description": "Catberry adapter for Handlebars template engine",
+	"version": "1.0.0",
+	"author": {
+		"name": "Denis Rechkunov",
+		"email": "denis.rechkunov@gmail.com"
+	},
+	"homepage": "http://linkedin.github.io/dustjs/",
+	"contributors": [],
+	"main": "./index.js",
+	"browser": {
+		"./lib/vendors/handlebars.js": "./browser/vendors/handlebars.js",
+		"./lib/TemplateProvider.js": "./browser/TemplateProvider.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/catberry/catberry-handlebars.git"
+	},
+	"keywords": [
+		"templates",
+		"handlebars",
+		"catberry",
+		"views"
+	],
+	"devDependencies": {
+		"jscs": "^1.6.0",
+		"jshint": "^2.5.0"
+	},
+	"license": "MIT",
+	"engine": {
+		"node": ">=0.10"
+	}
+}
