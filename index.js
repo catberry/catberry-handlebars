@@ -1,9 +1,9 @@
 /*
- * catberry-dust
+ * catberry-handlebars
  *
  * Copyright (c) 2014 Denis Rechkunov and project contributors.
  *
- * catberry-dust's license follows:
+ * catberry-handlebars's license follows:
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -24,7 +24,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This license applies to all parts of catberry-dust that are not externally
+ * This license applies to all parts of catberry-handlebars that are not externally
  * maintained libraries.
  */
 
