@@ -6,7 +6,7 @@
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
 	},
-	"homepage": "http://linkedin.github.io/dustjs/",
+	"homepage": "http://handlebarsjs.com/",
 	"contributors": [],
 	"main": "./index.js",
 	"browser": {
