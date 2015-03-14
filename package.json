@@ -7,7 +7,6 @@
 		"email": "denis.rechkunov@gmail.com"
 	},
 	"homepage": "http://handlebarsjs.com/",
-	"contributors": [],
 	"main": "./index.js",
 	"browser": {
 		"./lib/vendors/handlebars.js": "./browser/vendors/handlebars.js",
@@ -23,6 +22,9 @@
 		"catberry",
 		"views"
 	],
+	"peerDependencies": {
+		"catberry": "^4.0.0"
+	},
 	"devDependencies": {
 		"jscs": "^1.6.0",
 		"jshint": "^2.5.0"
