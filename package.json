@@ -1,7 +1,7 @@
 {
 	"name": "catberry-handlebars",
 	"description": "Catberry adapter for Handlebars template engine",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -23,7 +23,7 @@
 		"views"
 	],
 	"peerDependencies": {
-		"catberry": "^4.0.0"
+		"catberry": "^4.0.0 || ^5.0.0"
 	},
 	"devDependencies": {
 		"jscs": "^1.6.0",
