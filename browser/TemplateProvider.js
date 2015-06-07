@@ -39,7 +39,7 @@ module.exports = TemplateProvider;
  */
 function TemplateProvider($handlebars) {
 	this._handlebars = $handlebars;
-	this._templates = {};
+	this._templates = Object.create(null);
 }
 
 /**
@@ -75,7 +75,7 @@ TemplateProvider.prototype.registerCompiled = function (name, compiled) {
  * @returns {*}
  */
 TemplateProvider.prototype.render = function (name, data) {
-	if (!this._templates.hasOwnProperty(name)) {
+	if (!(name in this._templates)) {
 		return Promise.reject(new Error('No such template'));
 	}
 
