@@ -23,11 +23,14 @@
 		"views"
 	],
 	"peerDependencies": {
-		"catberry": "^4.0.0 || ^5.0.0 || ^6.0.0"
+		"catberry": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
 	},
 	"devDependencies": {
-		"jscs": "^1.6.0",
-		"jshint": "^2.5.0"
+		"jscs": "^2.5.1",
+		"jshint": "^2.8.0"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/jshint ./ && ./node_modules/.bin/jscs ./"
 	},
 	"license": "MIT",
 	"engine": {
