@@ -24,8 +24,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This license applies to all parts of catberry-handlebars that are not externally
- * maintained libraries.
+ * This license applies to all parts of catberry-handlebars that
+ * are not externally maintained libraries.
  */
 
 'use strict';
