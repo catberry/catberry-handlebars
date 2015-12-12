@@ -1,7 +1,7 @@
 {
 	"name": "catberry-handlebars",
 	"description": "Catberry adapter for Handlebars template engine",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -34,6 +34,6 @@
 	},
 	"license": "MIT",
 	"engine": {
-		"node": ">=0.10"
+		"node": ">=0.12"
 	}
 }
