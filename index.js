@@ -30,15 +30,14 @@
 
 'use strict';
 
-var Handlebars = require('./lib/vendors/handlebars'),
-	TemplateProvider = require('./lib/TemplateProvider');
+const Handlebars = require('./lib/vendors/handlebars');
+const TemplateProvider = require('./lib/TemplateProvider');
 
 module.exports = {
-	register: function (locator, config) {
-		config = config || {};
+	register(locator) {
 		locator.registerInstance('handlebars', Handlebars);
-		locator.register('templateProvider', TemplateProvider, config, true);
+		locator.register('templateProvider', TemplateProvider, true);
 	},
-	Handlebars: Handlebars,
-	TemplateProvider: TemplateProvider
+	Handlebars,
+	TemplateProvider
 };

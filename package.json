@@ -1,7 +1,7 @@
 {
 	"name": "catberry-handlebars",
 	"description": "Catberry adapter for Handlebars template engine",
-	"version": "2.0.1",
+	"version": "3.0.0",
 	"author": {
 		"name": "Denis Rechkunov",
 		"email": "denis.rechkunov@gmail.com"
@@ -22,18 +22,15 @@
 		"catberry",
 		"views"
 	],
-	"peerDependencies": {
-		"catberry": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-	},
 	"devDependencies": {
-		"jscs": "^2.5.1",
-		"jshint": "^2.8.0"
+		"eslint": "^2.0.0"
 	},
 	"scripts": {
-		"test": "./node_modules/.bin/jshint ./ && ./node_modules/.bin/jscs ./"
+		"test": "./node_modules/.bin/eslint ./",
+		"lint-fix": "./node_modules/.bin/eslint ./ --fix"
 	},
 	"license": "MIT",
 	"engine": {
-		"node": ">=0.12"
+		"node": ">=4"
 	}
 }
