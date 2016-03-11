@@ -9,7 +9,7 @@
 	"homepage": "http://handlebarsjs.com/",
 	"main": "./index.js",
 	"browser": {
-		"./lib/vendors/handlebars.js": "./browser/vendors/handlebars.js",
+		"./lib/handlebars.js": "./browser/handlebars.js",
 		"./lib/TemplateProvider.js": "./browser/TemplateProvider.js"
 	},
 	"repository": {
@@ -22,6 +22,9 @@
 		"catberry",
 		"views"
 	],
+	"dependencies": {
+		"handlebars": "^4.0.5"
+	},
 	"devDependencies": {
 		"eslint": "^2.0.0"
 	},
