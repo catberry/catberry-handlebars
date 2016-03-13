@@ -5,6 +5,12 @@
 It is an adapter for [Handlebars](http://handlebarsjs.com/) template engine
 that makes possible to use it from [Catberry](https://github.com/catberry/catberry) application.
 
+## Installation
+
+```bash
+npm install catberry-handlebars --save
+```
+
 ## Usage
 You can use the adapter in ./browser.js, ./server.js or ./build.js as following:
 
