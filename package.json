@@ -25,6 +25,9 @@
 	"dependencies": {
 		"handlebars": "^4.0.5"
 	},
+	"peerDependencies": {
+		"catberry": "^8.0.0"
+	},
 	"devDependencies": {
 		"eslint": "^2.0.0"
 	},
