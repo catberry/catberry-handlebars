@@ -13,6 +13,14 @@ class TemplateProvider {
 	}
 
 	/**
+	 * Gets the template provider name for identification.
+	 * @returns {string} Name of the provider.
+	 */
+	getName() {
+		return 'handlebars';
+	}
+
+	/**
 	 * Registers compiled (precompiled) Handlebars template.
 	 * http://handlebarsjs.com/reference.html
 	 * @param {string} name Template name.
